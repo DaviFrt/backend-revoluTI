@@ -12,7 +12,7 @@ model Address {
   street String
   city   String
   state  String
-  zip    String
+  zip    String @unique
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
