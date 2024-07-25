@@ -50,12 +50,12 @@ $ pnpm run start:prod
 ```bash
 # unit tests
 $ pnpm run test
+```
 
-# e2e tests
-$ pnpm run test:e2e
+## Documentation
 
-# test coverage
-$ pnpm run test:cov
+```bash
+# http://localhost:3333/docs
 ```
 
 ## Support
